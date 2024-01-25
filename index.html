@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olohun</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- moserati -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- joti one -->
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    
+</head>
+<body>
+<div class="section1">
+<nav class="wrapper95 navbar navbar-expand-lg">
+  <div class="container-fluid my-4">
+    <a class="navbar-brand" href="index.html">Olohun</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Painting</a></li>
+            <li><a class="dropdown-item" href="#">Sculpture</a></li>
+            <li><a class="dropdown-item" href="#">Textile</a></li>
+            <li><a class="dropdown-item" href="#">Ceramics</a></li>
+            <li><a class="dropdown-item" href="#">Animations</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Explore</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#goPro">Go Pro</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <form role="search">
+                <p class="d-flex align-items-center px-2">
+                 <i class="fa fa-search" aria-hidden="true"></i> 
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </p>
+            </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 trans-btn" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 block-btn" href="#">Sign Up</a>
+        </li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="hero">
+    <div class="wrapper80">
+        <h1>Art skills 
+        <br>shape society</h1>
+        <p class="">Passion or profession, find your artistic haven here</p>
+        <a class="block-btn getstated" href="#">Get Started</a>
+    </div>
+    <div class="wrapper95">
+        <div class="d-flex justify-content-between trend">
+            <!-- First Column: Round Carousel with Left Arrow -->
+            <div class="">
+                <div id="carouselRight" class="carousel slide round-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Add your carousel items with images here -->
+                        <div class="carousel-item active">
+                            <img src="assets/images/Rectangle8.png" class="d-block w-100" alt="Image 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Rectangle10.png" class="d-block w-100" alt="Image 5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Rectangle9.png" class="d-block w-100" alt="Image 6">
+                        </div>
+                    </div>
+                    <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselRight" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
+                </div>
+                <button class="carousel-control-next p-relative-left" type="button" data-bs-target="#carouselRight" data-bs-slide="next">
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <span class="visually-block">Trending Piece</span>
+                </button>
+                                    
+
+            </div>
+
+            <!-- Second Column: Middle Arrow -->
+            <div class=" arrow-column">
+                <div class="arrow"></div>
+            </div>
+
+            <!-- Third Column: Round Carousel with Right Arrow -->
+            <div class="">
+                <div id="carouselLeft" class="carousel slide round-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/Rectangle9.png" class="d-block w-100" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Rectangle8.png" class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/image13.png" class="d-block w-100" alt="Image 3">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev p-relative-right" type="button" data-bs-target="#carouselLeft" data-bs-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <span class="visually-block">Hot Expression</span>
+                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+</div>
+<div class="section2">
+    <h2 class=" center py-4">The Art Network</h2>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+        <!-- Horizontal Scroll Container -->
+        <div class="scroll-container" id="scrollspyHeading1">
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ademi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5 class="name">Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ifemi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Sculptor</i>
+                    <p class="state">Ogun</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ademi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ifemi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Ondo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ademi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Animator</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ifemi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ifemi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Textile Artist</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ademi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ifemi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ademi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/ifemi.jpeg" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Ogundipe Adeyemi</h5>
+                    <i class="category">Painter</i>
+                    <p class="state">Oyo</p>
+                </div>
+            </div>
+            <div class="scroll-item">
+                <div class="gradient-overlay"></div>
+                <img src="assets/images/unknown_276.png" class="d-block w-100" alt="Image 1">
+                <div class="image-title">
+                    <h5>Unknown</h5>
+                    <i>Sculptor</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper80">
+            <h2 class=" center py-4">Explore art commission - free </h2>
+
+    </div>
+
+    <div class="explore wrapper95">
+    <div class="row">
+        <div class="column">
+            <img src="assets/images/image13.png" alt="Image 1" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 1</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 500</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 33.2k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle10.png" alt="Image 2" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 2</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 10.1k</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 200</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle8.png" alt="Image 3" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 3</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 900</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 2.1k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle9.png" alt="Image 4" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 4</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 1200</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 300</span>
+                    </div>                
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <img src="assets/images/image13.png" alt="Image 1" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 1</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 500</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 33.2k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle10.png" alt="Image 2" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 2</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 10.1k</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 200</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle8.png" alt="Image 3" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 3</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 900</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 2.1k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle9.png" alt="Image 4" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 4</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 1200</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 300</span>
+                    </div>                
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <img src="assets/images/image13.png" alt="Image 1" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 1</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 500</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 33.2k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle10.png" alt="Image 2" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 2</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 10.1k</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 200</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle8.png" alt="Image 3" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 3</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 900</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 2.1k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle9.png" alt="Image 4" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 4</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 1200</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 300</span>
+                    </div>                
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <img src="assets/images/image13.png" alt="Image 1" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 1</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 500</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 33.2k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle10.png" alt="Image 2" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 2</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 10.1k</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 200</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle8.png" alt="Image 3" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 3</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 900</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 2.1k</span>
+                </div>                
+            </div>
+        </div>
+        <div class="column">
+            <img src="assets/images/Rectangle9.png" alt="Image 4" class="artist-image">
+            <div class="count">
+                <div class="artist-name"><img src="assets/images/ifemi.jpeg" class="artist-icon">Artist Name 4</div>
+                <div class="rate">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i> 1200</span>
+                    <span><i class="fa fa-heart" aria-hidden="true"></i> 300</span>
+                    </div>                
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <div class="space">
+        <a href="#" class="btn btn-md outline-btn">Browse More Art</a>
+        <h2 class="pt-4 px-3">DISCOVER EXHIBITIONS AROUND</h2>
+        <a class="dropdown-toggle location" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select a location
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Lagos</a></li>
+            <li><a class="dropdown-item" href="#">Abuja</a></li>
+            <li><a class="dropdown-item" href="#">Oyo</a></li>
+            <li><a class="dropdown-item" href="#">Kwara</a></li>
+            <li><a class="dropdown-item" href="#">Ondo</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Explore</a></li>
+        </ul>
+    </div>
+
+
+    <div id="about" class="wrapper95">
+        <div class="d-flex justify-content-between">
+            <div class="col-md-8">
+                <a class="navbar-brand" href="index.html">Olohun</a>
+                <p>Build your own profile, connect with others, gain followers, share posts on your wall, 
+                and enjoy various features.Think of it as a theme-based social network – like LinkedIn
+                tailored for the art scene, as social as Facebook, with an added shop and plenty of
+                engaging and informative content.We're based in Nigeria, but our influence and
+                popularity extend globally.</p>
+                <br>
+                <p>Join us in connecting the art world – with members, artists, 
+                galleries, and universities spanning over 200 countries and 
+                growing.
+                </p>
+                <br><br><br>
+                <p class="follow">Follow Us</p>
+                <p class="social">Social me...</p>
+                <div class="d-flex social-icon">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="form">
+                <form class="signup-form">
+                    <div class="text-center">
+                        <a class="navbar-brand" href="index.html">Olohun</a>
+                        <h4>Welcome to Olohun</h4>
+                        <h6 class="mb-3">Explore art and connect artist</h6>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dob" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="dob" placeholder="dd/mm/yyyy" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger continue-btn continue-red border">Continue with Red</button>
+                    <div class="text-center pt-3">
+                        <h5>OR</h5>
+                    </div>
+                    <button type="submit" class="btn continue-btn continue-facebook border">Continue with Facebook</button>
+                    <button type="submit" class="btn continue-btn continue-google border">Continue with Google</button>
+                    <div class="text-center py-3">
+                        <h6>By continuing, you agree to olóhun’s
+                        <a href="#">Terms of Service</a> and acknowledge that you’ve
+                        read our <a href="#">h6rivacy h6olicy</a> Notice at collection.</h6>
+                        <h6>Already a member? Log in</h6>
+                    </div>
+                </form>
+                <div class="bg-grey text-center">
+                    <p>Create an account</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section3 footer text-center">
+    <i>Copyright &#169; 2024 All Right Reserved</i>
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+    // Function to scroll to the next item automatically
+    function scrollToNextItem() {
+        const scrollContainer = document.querySelector('.scroll-container');
+        const itemWidth = document.querySelector('.scroll-item').offsetWidth;
+
+        // Calculate the next scroll position
+        const nextScrollLeft = (scrollContainer.scrollLeft + itemWidth < scrollContainer.scrollWidth)
+            ? scrollContainer.scrollLeft + itemWidth
+            : 0;
+
+        // Scroll to the next item with smooth behavior
+        scrollContainer.scrollTo({
+            left: nextScrollLeft,
+            behavior: 'smooth'
+        });
+        
+        // If it reaches the end, reset to the first item
+        if (nextScrollLeft === 0) {
+            setTimeout(() => {
+                scrollContainer.scrollTo({ left: 0, behavior: 'auto' });
+            }, 1000); // Delay before resetting to create a smoother loop
+        }
+    }
+
+    // Automatically scroll every 3 seconds (adjust as needed)
+    setInterval(scrollToNextItem, 3000);
+</script>
+
+</body>
+</html>
