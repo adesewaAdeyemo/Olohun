@@ -41,7 +41,7 @@
         width: 100%;
     }
     .wrapper95{
-        width: 95%;
+        width: 80%;
         margin: 0 auto;
     }
     .wrapper90{
@@ -49,7 +49,7 @@
         margin: 0 auto;
     }
     .wrapper80{
-        width: 80%;
+        width: 65%;
         margin: 0 auto;
     }
     .wrapper70{
@@ -108,9 +108,9 @@
         font-size: 20px !important;
     }
     .nav-item a{
-        margin: 0 40px;
+        margin: 0 20px;
         color: #C7BDBD;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
      }
     nav a{
@@ -125,7 +125,7 @@
         color: #fff !important;
     }
 
-    nav form p{
+    nav form span{
         border-radius: 20px !important; 
         background: #4B474B !important; 
         border: 1px solid #4B474B !important;
@@ -144,15 +144,15 @@
 
     /* hero */
     .hero{
-        padding: 180px 0 50px;
+        padding: 280px 0 50px;
     }
     .hero p{
         padding: 30px 0;
-        font-size: 30px;
+        font-size: 25px;
     }
     h1{
         color: #FFF;
-        font-size: 90px;
+        font-size: 70px;
         font-weight: 600;
         line-height: normal; 
     }
