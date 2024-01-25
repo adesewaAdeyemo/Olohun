@@ -103,6 +103,10 @@
         font-weight: 400;
         line-height: normal;             
     }
+    button.navbar-toggler i{
+        color: #101216 !important;
+        font-size: 20px !important;
+    }
     .nav-item a{
         margin: 0 40px;
         color: #C7BDBD;
@@ -441,4 +445,32 @@
     h2{
         font-size: 30px;
      }
+     .d-flex, .row{
+        flex-direction: column;
+     }
+     .form{
+        /* margin: 20px !important; */
+    }
+
+    #about .col-md-8 p{
+        padding-right: 0;
+    }
+    .p-relative-left{
+        position: relative;
+        top: -90px;
+        left: 155px;
+    }
+    .p-relative-right{
+        position: relative;
+        top: -90px;
+        left: 145px;
+    }
+    #carouselLeft{
+        position: relative;
+        left: 220px !important;
+    }
+    .wrapper95{
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
     }
