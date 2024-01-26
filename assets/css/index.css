@@ -126,6 +126,9 @@
         color: #fff !important;
     }
 
+    /* nav form{
+        width: 100px !important;
+    } */
     nav form span{
         border-radius: 20px !important; 
         background: #4B474B !important; 
@@ -157,7 +160,7 @@
     }
     h1{
         color: #FFF;
-        font-size: 72px;
+        font-size: 65px;
         font-weight: 600;
         line-height: normal; 
     }
@@ -214,8 +217,9 @@
         -webkit-overflow-scrolling: touch;
     }
     .getstated{
-        font-size: 18px;
+        font-size: 25px;
         padding: 10px 20px;
+        font-weight: 600;
     }
     .scroll-item {
         flex: 0 0 auto;
@@ -249,7 +253,7 @@
     .section1{
         background-image: url('../images/homepage.png');
         background-color: #3498db; 
-        background-size:cover;
+        background-size:contain;
         color: #fff; 
     }
     .section2{
@@ -270,7 +274,7 @@
         .column {
             flex: 1;
             text-align: center;
-            padding: 40px;
+            padding: 20px;
             color: #FFF !important;
         }
 
