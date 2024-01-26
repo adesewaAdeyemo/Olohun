@@ -253,7 +253,7 @@
     .section1{
         background-image: url('../images/homepage.png');
         background-color: #3498db; 
-        background-size:contain;
+        background-size:cover;
         color: #fff; 
     }
     .section2{
@@ -283,7 +283,9 @@
             border-radius: 20px;
             margin-bottom: 10px;
         }
-
+        .rate span{
+            font-size: 12px;
+        }
         .artist-icon {
             width: 24px;
             height: 24px;
@@ -291,6 +293,7 @@
         }
 
         .artist-name {
+            font-size: 12px;
             font-weight: bold;
             margin-bottom: 5px;
             color: #FDFCFC !important;
@@ -304,11 +307,11 @@
             color: #FDFCFC !important;
         }
         .fa{
-            margin: 0 10px;
+            margin: 0 5px;
             color: #FDFCFC !important;
         }
         .artist-icon {
-            margin-right: 10px;
+            margin-right: 5px;
             color: #FDFCFC !important;
         }
 
@@ -494,5 +497,19 @@
     .wrapper95{
         width: 80% !important;
         margin: 0 auto !important;
+    }
+    }
+
+
+
+    @media screen and (max-width: 768px) {
+    .p-relative-right{
+        position: relative;
+        top: -90px;
+        left: 75px;
+    }
+    #carouselLeft{
+        position: relative;
+        left: 150px !important;
     }
     }
